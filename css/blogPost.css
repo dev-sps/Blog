@@ -1,6 +1,6 @@
-@import "header.css";
-@import "footer.css";
-@import "blogpostBody.css";
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./blogpostBody.css");
 
 
 .heading{
