@@ -1,0 +1,25 @@
+aside{
+    grid-area: sb;
+    box-shadow: 2px 0px 10px #888888;
+    }
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 2px;       
+}
+
+
+#sbHeading{
+    text-align: center;
+    color: rgb(10, 104, 187);
+}
+
+
+.options {
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+}

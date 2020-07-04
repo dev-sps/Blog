@@ -1,0 +1,29 @@
+.header{
+    grid-area: header;
+    line-height: 0.3;
+    box-shadow: 0px 2px 10px #888888;   
+}
+
+
+#blogHeading{
+    padding-left: 10px;
+    color: rgb(10, 104, 187);
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+.menuOptions{
+    margin-top: 5px;
+}
+
+
+.menuOptions > a{
+    padding: 10px; 
+}
+
+
+#menuBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arduino</title>
+    <link rel="stylesheet" href="css/blogPost.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="blogHeading">Electronics Blog</h1>
+        <nav>
+            <div id="menuBar">
+                <div class="menuOptions"><a href="index.html">Home</a></div>
+                <div class="menuOptions"><a href="#">Projects</a></div>
+                <div class="menuOptions"><a href="#">About</a></div>
+                <div class="menuOptions"><a href="#">Contact</a></div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+            <div class="heading">
+                <h2>Arduino</h2>
+            </div>
+
+            <div class="author">
+                <div id="avatar">
+                    <img src="/assets/images/avatar.jpg" alt="author image" id="avatar">
+                </div>
+
+
+                <div class="author-details">
+                    <div class="author-info">Nelson C</div>
+                    <div class="author-info">Electronics Engineer</div>
+                    <div class="author-info">Panther Electronics</div>
+                    <!-- Short Bio -->
+                    <div class="author-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, veniam.</div>
+                </div>
+
+                <div class="icons">
+                    <p><a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="introduction">
+                <h3>Introduction</h3>
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolor ipsum
+                    voluptas
+                    nisi esse pariatur quaerat laborum iure delectus dignissimos praesentium deserunt reiciendis fuga
+                    earum,
+                    unde dicta eveniet neque magni numquam alias minima eligendi quos, sint aspernatur! Eaque, eligendi
+                    eius?</p>
+            </div>
+
+            <div class="components">
+                <h3>Components Required</h3>
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolor ipsum
+                    voluptas
+                    nisi esse pariatur quaerat laborum iure delectus dignissimos praesentium deserunt reiciendis fuga
+                    earum,
+                    unde dicta eveniet neque magni numquam alias minima eligendi quos, sint aspernatur! Eaque, eligendi
+                    eius?</p>
+            </div>
+
+            <div class="circuit">
+                <h3>Electronic Schematic</h3>
+                <img src="/assets/images/arduino-circuit.jpg" alt="Blink Led Schematic" id="schematic">
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nulla totam, possimus
+                    excepturi ipsam eveniet ullam ratione neque voluptatem officiis obcaecati. Accusantium provident
+                    rerum
+                    necessitatibus.</p>
+            </div>
+
+            <div class="code">
+                <h3>Source Code</h3>
+                <pre><code>
+            
+        void setup() {
+            pinMode(LED_BUILTIN, OUTPUT);
+        }
+
+        void loop() {
+            digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+            delay(1000);                       // wait for a second
+            digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+            delay(1000);                       // wait for a second
+        }
+        </code>
+    </pre>
+    </div>
+        
+    </main>
+
+    <footer>
+        <p id="ft">Made by SS</p>
+    </footer>
+</body>
+</html>

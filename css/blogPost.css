@@ -1,0 +1,94 @@
+@import "/css/header.css";
+@import "/css/footer.css";
+@import "/css/blogpostBody.css";
+
+
+.heading{
+    grid-area: heading;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(10, 104, 187);
+}
+
+
+.author{
+    grid-area: author;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.introduction{
+    grid-area: intro;
+}
+
+.components{
+    grid-area: components;
+}
+
+
+.circuit{
+    grid-area: circuit;
+}
+
+
+.code{
+    grid-area: code;
+}
+
+
+.author-details{
+    margin-top: 12px;
+}
+
+
+#avatar{
+    width: 100px;
+    height: 100px;
+}
+
+
+h3{
+    color: #3794e0;
+    margin-left: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(27, 97, 163);
+}
+
+
+a:hover{
+    color: #257cee;
+}
+
+
+.content{
+    margin: 0px 25px;
+}
+
+
+.author-info{
+    font-style: italic;
+}
+
+
+#schematic{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.icons{
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 40px;
+}
+
+

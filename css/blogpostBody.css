@@ -1,0 +1,18 @@
+body{  
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 90px 1fr 2fr 1fr 2fr 3fr 3fr 3fr 1fr;
+    grid-template-areas: 
+    "header"
+    "heading"
+    "author"
+    "intro"
+    "components"
+    "circuit"
+    "code"
+    "footer";
+    gap: 2px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
