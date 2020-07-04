@@ -1,5 +1,5 @@
-@import url("./header.css");
-@import url("./footer.css");
+@import url("../header.css");
+@import url("../footer.css");
 @import url("./blogpostBody.css");
 
 
@@ -92,3 +92,6 @@ a:hover{
 }
 
 
+figcaption{
+    text-align: center;
+}
